@@ -23,10 +23,13 @@ const HeroSection = () => {
             I build things for the web.
           </h1>
           <p className="text-white w-[50vw] sm:w-[75vw]  bg-primary p-2">
-            Greetings! I am a highly motivated and proactive web developer with
-            a strong passion for creating remarkable solutions. My name is
-            Muhammad Ahmed Fayyaz , and I am dedicated to learning and building
-            fantastic things in the field of web development.
+            Innovative and results-driven Frontend Developer with expertise in
+            React.js, Next.js and Tailwind CSS. Gained frontend web development
+            expertise through practical experience by working on projects such
+            as Virtual Question Bank and Pet Finder Web. I dedicate myself to
+            transforming digital concepts into user-friendly interface solutions
+            as I improve my technical ability to master the dynamic web
+            development sector.
           </p>
           <div className="flex flex-row  gap-4">
             <Link to="https://www.fiverr.com/ahmedz182" target="_blank">

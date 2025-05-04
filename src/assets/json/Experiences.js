@@ -1,6 +1,14 @@
 const experiences = [
   {
     "_id": "6534d5389a4b855a6af9828e",
+    "company": "Smash Code",
+    "title": "FrontEnd Developer",
+    "start_year": "2024",
+    "end_year": "2024",
+    "desc": "Done 3 Month Remote Internship as a FrontEnd Developer. I am a dynamic and driven web developer on a mission to craft extraordinary digital solutions. With a fervent passion for web development, I thrive on turning innovative ideas into reality. My journey is fueled by a relentless dedication to learning, ensuring that I stay at the forefront of the ever-evolving world of technology. Join me in exploring the boundless possibilities of web development as we embark on a journey to create truly remarkable solutions together."
+  },
+  {
+    "_id": "6534d5389a4b855a6af9828e",
     "company": "Fiverr",
     "title": "FrontEnd Developer",
     "start_year": "2023",

@@ -2,14 +2,18 @@ import React from "react";
 
 const Technology = () => {
   const skill = [
+    "Next.js",
+    "MongoDB",
+    "Python",
     "Wordpress",
     "HTML",
     "CSS",
     "Bootstrap",
+    "Git",
     "Tailwind",
     "JavaScript",
-    "React",
-    "Node",
+    "React.js",
+    "WooCommerce",
     "Office",
     "Excel",
     "VS code",

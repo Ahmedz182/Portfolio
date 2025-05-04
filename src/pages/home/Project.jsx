@@ -9,7 +9,7 @@ const Project = () => {
     <>
       <SectionTitle title="Projects" />
       <div className="bg-primary flex gap-5 sm:flex-col w-full   ps-40 pe-10 py-10 sm:px-8 sm:py-4 sm:gap-2 ">
-        <span className="flex flex-col overflow-x-scroll sm:flex-row  bg-primary py-2 px-3 w-2/5 sm:w-full sm:gap-3">
+        <span className="flex flex-col sm:overflow-x-scroll  sm:flex-row  bg-primary py-2 px-3 w-2/5 sm:w-full sm:gap-3">
           {project.map((projects, index) => (
             <div className="flex">
               <div
@@ -31,32 +31,34 @@ const Project = () => {
           ))}
         </span>
 
-        <div className="flex flex-col w-full justify-center  px-1 gap-5 py-34 sm:px-5">
-          <h1 className="text-secondary text-2xl font-bold">
-            {project[selected].title}
-          </h1>
-          <h1 className="text-white">
-            Built in :{" "}
-            <strong className="text-tertiary text-xl  font-semibold">
-              {project[selected].technolgy}
-            </strong>
-          </h1>
-          <p className="text-white text-sm  ">{project[selected].desc}</p>
-          <Link to={project[selected].preview} target="_blank">
-            <button
-              type="button"
-              className="text-tertiary cursor-pointer border  w-36 border-tertiary rounded hover:bg-tertiary hover:text-primary hover:font-semibold flex px-4 py-2 transition duration-600 ease-in-out">
-              Live Preview
-            </button>
-          </Link>
-        </div>
-        <div className="flex object-fill w-3/4 justify-center py-24 h-2/3 sm:py-5 sm:h-full sm:w-full">
-          <img
-            src={project[selected].img}
-            alt=""
-            className="img"
-            loading="lazy"
-          />
+        <div className="flex flex-col -mt-24 sm:mt-0 w-full  sm:gap-2">
+          <div className="flex object-fill w-fit   py-24 h-2/3 sm:py-5 sm:h-full sm:w-full">
+            <img
+              src={project[selected].img}
+              alt="Project Cover Image"
+              className="img"
+              loading="lazy"
+            />
+          </div>
+          <div className="flex flex-col  justify-center  px-1 gap-5 -mt-10 sm:mt-0 sm:px-5">
+            <h1 className="text-secondary text-2xl font-bold">
+              {project[selected].title}
+            </h1>
+            <h1 className="text-white">
+              Built in :{" "}
+              <strong className="text-tertiary text-xl  font-semibold">
+                {project[selected].technolgy}
+              </strong>
+            </h1>
+            <p className="text-white text-sm  ">{project[selected].desc}</p>
+            <Link to={project[selected].preview} target="_blank">
+              <button
+                type="button"
+                className="text-tertiary cursor-pointer border  w-36 border-tertiary rounded hover:bg-tertiary hover:text-primary hover:font-semibold flex px-4 py-2 transition duration-600 ease-in-out">
+                Live Preview
+              </button>
+            </Link>
+          </div>
         </div>
       </div>
     </>

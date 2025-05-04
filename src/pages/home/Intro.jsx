@@ -1,5 +1,5 @@
 import React from "react";
-import ahmed from "../../assets/img/ahmed.png";
+import ahmed from "../../assets/img/dev.png";
 import SectionTitle from "../../components/SectionTitle";
 
 const Intro = () => {
@@ -12,8 +12,8 @@ const Intro = () => {
           <img
             src={ahmed}
             alt="Developer"
-            className="rounded shadow-lg shadow-tertiary/50 img"
             loading="lazy"
+            className="rounded  shadow-tertiary/50 devimg"
           />
         </div>
         <div className="flex flex-col gap-5 bg-primary text-white py-16 w-3/5 sm:w-full sm:py-4">
